@@ -67,14 +67,9 @@ const questions = [
     },
     {
       type: "input",
-      name: "Question1",
-      message: "Enter the URL of your profile picture"
-    },
-    {
-      type: "input",
-      name: "question2",
-      message: "Enter Email",
-    },  
+      name: "Questions",
+
+    }  
 ];
 
 // function to write README file
