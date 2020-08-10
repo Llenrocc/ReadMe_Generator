@@ -19,37 +19,36 @@
   // array of questions for user
 const fs = require("fs");
 const inquirer = require('inquirer');
-
 const questions = [
 
     {
       type: "input",
-      name: "badge",
+      name: "Badge",
       message: "Input badge code."
     },
     {
       type: "input",
-      name: "title",
+      name: "Title",
       message: "What is the title of your project?"
     },
     {
       type: "input",
-      name: "description",
+      name: "Description",
       message: "Write a description of your project."
     },
     {
       type: "input",
-      name: "table of Contents",
+      name: "Table of Contents",
       Message: "Write a table of contents separated by commas."
     },
     {
       type: "input",
-      name: "installation",
+      name: "Installation",
       message: "Installation Instructions."
     },
     {
       type: "input",
-      name: "usage",
+      name: "Usage",
       message: "Describe Usage."
     },
     {
@@ -127,13 +126,6 @@ inquirer
         return console.log(err);
       }
       console.log("Success!");
-    });
-
-    fs.appendFileSync("README.md", ("## Usage" + '\n' + response.usage) + '\n', function(err) {
-      if (err) {
-        return console.log(err);
-      }
-      console.log("Success!")
     });
 
     fs.appendFileSync("README.md", ("## License" + '\n', function (err) {
