@@ -18,9 +18,6 @@ inquirer
   
   // Code from develop folder
   // array of questions for user
-const fs = require("fs");
-const inquirer = require("inquirer");
-  
 const questions = [
 
     {
@@ -166,8 +163,7 @@ inquirer
         return console.log(err);
       }
       console.log("Success");
-    });
-
+    });  
 // function to write README file
 function writeToFile(fileName, data) {
 }

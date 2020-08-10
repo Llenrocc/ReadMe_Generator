@@ -18,9 +18,6 @@ inquirer
   
   // Code from develop folder
   // array of questions for user
-const fs = require("fs");
-const inquirer = require("inquirer");
-  
 const questions = [
 
     {
@@ -160,14 +157,6 @@ inquirer
       }
       console.log("Success!");
     });
-
-    fs.appendFileSync("README.md", ('\n' + response.question2) + '\n', function(err) {
-      if (err) {
-        return console.log(err);
-      }
-      console.log("Success");
-    });
-
 // function to write README file
 function writeToFile(fileName, data) {
 }
