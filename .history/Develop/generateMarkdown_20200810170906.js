@@ -3,7 +3,7 @@ function generateMarkdown(response) {
     return `
 
     # ${response.Title}
-  ![javascript]("https://img.shields.io/badge/Javascript-100%25-brightgreen")
+
 
 
     ## Table of Contents
