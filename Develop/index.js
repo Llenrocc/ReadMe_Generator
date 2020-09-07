@@ -16,7 +16,7 @@ const questions = [
         default: 'Llenrocc',
         validate: function (answer) {
             if (answer.length < 1) {
-                return console.log("A valid GitHub username is required.");
+                return console.log("Enter GitHub User Name.");
             }
             return true;
         }
@@ -25,10 +25,10 @@ const questions = [
         type: 'input',
         message: "What is the name of your GitHub repo?",
         name: 'repo',
-        default: 'readme-generator',
+        default: 'ReadMe_Generator',
         validate: function (answer) {
             if (answer.length < 1) {
-                return console.log("A valid GitHub repo is required for a badge.");
+                return console.log("Enter the name of your Github Repo.");
             }
             return true;
         }
@@ -40,7 +40,7 @@ const questions = [
         default: 'Project Title',
         validate: function (answer) {
             if (answer.length < 1) {
-                return console.log("A valid project title is required.");
+                return console.log("Enter Project Title.");
             }
             return true;
         }
@@ -52,29 +52,29 @@ const questions = [
         default: 'Project Description',
         validate: function (answer) {
             if (answer.length < 1) {
-                return console.log("A valid project description is required.");
+                return console.log("Enter description of your project.");
             }
             return true;
         }
     },
     {
         type: 'input',
-        message: "If applicable, describe the steps required to install your project for the Installation section.",
+        message: "Enter steps required to install application",
         name: 'installation'
     },
     {
         type: 'input',
-        message: "Provide instructions and examples of your project in use for the Usage section.",
+        message: "Provide instructions on how to use your app and why.",
         name: 'usage'
     },
     {
         type: 'input',
-        message: "If applicable, provide guidelines on how other developers can contribute to your project.",
+        message: "Are there any contributors?",
         name: 'contributing'
     },
     {
         type: 'input',
-        message: "If applicable, provide any tests written for your application and provide examples on how to run them.",
+        message: "Enter any tests written for your project and how to utilize it.",
         name: 'tests'
     },
     {
