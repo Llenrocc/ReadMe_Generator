@@ -18,6 +18,7 @@
   "homepage": "https://github.com/Llenrocc/ReadMe_Generator#readme",
   "dependencies": {
     "axios": "^0.19.2",
+    "express": "^4.17.1",
     "inquirer": "^7.3.3",
     "utils": "^0.3.1"
   }
