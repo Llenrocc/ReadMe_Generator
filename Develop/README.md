@@ -22,4 +22,4 @@ These are the steps required to generate your own ReadMe:
 
 ## Usage
 
-
+Example of usage.

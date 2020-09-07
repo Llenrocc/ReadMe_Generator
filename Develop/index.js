@@ -64,7 +64,7 @@ const questions = [
     },
     {
         type: 'input',
-        message: "Provide instructions on how to use your app and why.",
+        message: "How to use the app.",
         name: 'usage'
     },
     {
@@ -74,7 +74,7 @@ const questions = [
     },
     {
         type: 'input',
-        message: "Enter any tests written for your project and how to utilize it.",
+        message: "Enter any tests written for your project with instructions.",
         name: 'tests'
     },
     {
