@@ -24,7 +24,8 @@ These are the steps required to generate your own ReadMe:
 
 Example of usage.
 
-<<<<<<< HEAD
+![Animated GIF-downsized](https://user-images.githubusercontent.com/62081345/92546790-69bc1d80-f221-11ea-9489-c98114bff1dc.gif) * ![Animated GIF-downsized_large](https://user-images.githubusercontent.com/62081345/92546851-8eb09080-f221-11ea-94be-626847fce7c4.gif)
+
 Open up the terminal inside your VS code, type in node index.js. This will then trigger the 
 inquirer package which will prompt you in the command line with questions regarding your 
 Github project. 
@@ -33,12 +34,8 @@ The application then uses axios to fetch Github profile from the Github API. Onc
 generate markdown will create a table of contents for the readme based on your answers to the
 questions. 
 
-## Problem Solving
+### Problem Solving
 
 This application utilizes inquirer and axios packages to generate a readme quickly for your Github
 profile. This will save time if you have a lot of projects on the go. 
 Javascript and node.js were used to create this project. 
-=======
-![Animated GIF-downsized](https://user-images.githubusercontent.com/62081345/92546790-69bc1d80-f221-11ea-9489-c98114bff1dc.gif) * ![Animated GIF-downsized_large](https://user-images.githubusercontent.com/62081345/92546851-8eb09080-f221-11ea-94be-626847fce7c4.gif)
-
->>>>>>> 58e24602fde9603697c1852e44ce132403dc1e2d
