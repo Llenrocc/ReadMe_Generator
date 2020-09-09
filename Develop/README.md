@@ -23,3 +23,17 @@ These are the steps required to generate your own ReadMe:
 ## Usage
 
 Example of usage.
+
+Open up the terminal inside your VS code, type in node index.js. This will then trigger the 
+inquirer package which will prompt you in the command line with questions regarding your 
+Github project. 
+
+The application then uses axios to fetch Github profile from the Github API. Once this is done,
+generate markdown will create a table of contents for the readme based on your answers to the
+questions. 
+
+## Problem Solving
+
+This application utilizes inquirer and axios packages to generate a readme quickly for your Github
+profile. This will save time if you have a lot of projects on the go. 
+Javascript and node.js were used to create this project. 
