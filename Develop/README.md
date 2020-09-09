@@ -24,5 +24,4 @@ These are the steps required to generate your own ReadMe:
 
 Example of usage.
 
-<iframe src="https://giphy.com/embed/f5vPjaKCJlIxL9PlvP" width="480" height="348" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/f5vPjaKCJlIxL9PlvP">via GIPHY</a></p>. 	
-
+![Animated GIF-downsized](https://user-images.githubusercontent.com/62081345/92546790-69bc1d80-f221-11ea-9489-c98114bff1dc.gif)
